@@ -5,4 +5,4 @@ SRCDIR="$ROOTDIR/src"
 BUILDDIR="$ROOTDIR/build"
 
 # Расположите свою команду на следующей строке
-gcc -c -o "$BUILDDIR/main.o" "$SRCDIR/main.c"
+gcc -lm -c -o "$BUILDDIR/main.o" "$SRCDIR/main.c"
